@@ -37,7 +37,7 @@
     "clean": "rimraf ./build/",
     "precompile": "yarn clean",
     "compile": "waffle .waffle.json",
-    "flatten": "truffle-flattener contracts/WardenFactory.sol > flatten/WardenFactory.sol",
+    "flatten:factory": "truffle-flattener contracts/WardenFactory.sol > flatten/WardenFactory.sol",
     "pretest": "yarn compile",
     "test": "mocha",
     "prepublishOnly": "yarn test"
