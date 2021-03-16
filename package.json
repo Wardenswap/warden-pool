@@ -3,10 +3,6 @@
   "description": "🎛 Core contracts for the warden liquidity protocol",
   "version": "0.1.0",
   "homepage": "https://www.wardenswap.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wardenswap/warden-swap-core.git"
-  },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
   },
